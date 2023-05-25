@@ -25,4 +25,4 @@ PyInstaller собирает в один пакет Python-приложение 
 Применение: pyinstaller --add-data "Audio_player.py;." Unificator.py
 
 
-pyinstaller --onefile --add-data "42.jpg;." --add-data "1000 Sales Records.csv;." --add-data "Audio_player.py;." --add-data "Data_vizualizer.py;." --add-data "Image_filter.py;." --add-data "Terentij.wav;." --add-data "Website_scrapper.py;." Unificator.py
+pyinstaller --onefile --add-data "Audio_player.py;." --add-data "Data_vizualizer.py;." --add-data "Image_filter.py;." --add-data "Website_scrapper.py;." Unificator.py
