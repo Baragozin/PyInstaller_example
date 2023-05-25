@@ -46,7 +46,7 @@ __Дополнительные импорты с помощью Hidden Imports__
 
 pyinstaller --onefile --add-data "Audio_player.py;." — hidden-import "wave" Unificator.py
 
-Для иллюстрации работы pyinstaller было написано 4 простеньких скрипта, что объединятся в меню выбора 5-го. Чтобы сгенерировать .exe файл необходимо применить следующую команду.
+Для иллюстрации работы pyinstaller было написано 4 простеньких скрипта, что объединятся в меню выбора 5-го. Чтобы сгенерировать .exe файл необходимо применить следующую команду находясь в директории, что содержит целевой скрипт.
 
 __pyinstaller --onefile --add-data "Audio_player.py;." --add-data "Data_vizualizer.py;." --add-data "Image_filter.py;." --add-data "Website_scrapper.py;." Unificator.py__
 
